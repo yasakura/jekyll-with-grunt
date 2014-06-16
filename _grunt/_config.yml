@@ -1,0 +1,6 @@
+name: Jekyll with Grunt
+markdown: redcarpet
+highlighter: null
+
+source:      ../.
+destination: ../_site
