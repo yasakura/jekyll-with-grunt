@@ -1,0 +1,9 @@
+default:
+    #- 'newer:sass:prod'
+    - 'shell'
+    - 'sass:dev'
+    - 'watch'
+
+prod:
+    - 'sass:prod'
+    - 'uncss'

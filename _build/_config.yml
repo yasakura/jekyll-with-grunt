@@ -4,3 +4,5 @@ highlighter: null
 
 source:      ../.
 destination: ../_site
+
+exclude: [scss,css]
