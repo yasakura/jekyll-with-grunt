@@ -1,8 +1,12 @@
 default:
-    #- 'newer:sass:prod'
-    - 'shell'
+    - 'shell:jekyllBuild'
     - 'sass:dev'
     - 'watch'
+
+sprite:
+    - 'shell:compass'
+    - 'shell:move_compass'
+    - 'sass:dev'
 
 prod:
     - 'sass:prod'
